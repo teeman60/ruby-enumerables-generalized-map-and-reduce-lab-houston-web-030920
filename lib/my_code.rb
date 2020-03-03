@@ -5,4 +5,3 @@ def map(source)
   yield(source[i])
 map(source) {|a| a*-1}
 end
-
