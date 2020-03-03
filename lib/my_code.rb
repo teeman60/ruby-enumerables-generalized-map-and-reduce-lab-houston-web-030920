@@ -1,5 +1,5 @@
 # Your Code Here
 def map(source)
-  source[i]
+  yield 
 map(source) {|a| a*-1}
 end
