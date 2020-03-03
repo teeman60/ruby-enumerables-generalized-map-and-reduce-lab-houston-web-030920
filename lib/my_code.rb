@@ -4,5 +4,5 @@ def map(source)
   while i < source.length do
   yield(source[i])
 end
-map {|a| a*-1}
+map([1, 2, 3, -9]) {|a| a*-1}
 end
